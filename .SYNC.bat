@@ -75,7 +75,7 @@ REM ===============================
 REM 6A. Local DIRTY -> prioritize LOCAL
 REM ===============================
 if %HAS_LOCAL_FILE_CHANGES% EQU 1 (
-    echo - 70%% - Syncing branches...
+    echo - 70%% - Syncing files...
     call :log INFO Strategy: PRIORITIZE LOCAL
 
     call :log INFO Creating cloud backup branch
@@ -94,7 +94,7 @@ REM ===============================
 REM 6B. Local CLEAN -> prioritize ORIGIN
 REM ===============================
 if %HAS_LOCAL_FILE_CHANGES% EQU 0 (
-    echo - 70%% - Syncing branches...
+    echo - 70%% - Syncing files...
     call :log INFO Strategy: PRIORITIZE ORIGIN
 
     git pull origin %CURRENT_BRANCH% >> "%LOG_FILE%" 2>&1
