@@ -4,7 +4,7 @@ setlocal enabledelayedexpansion
 REM ===============================
 REM CONFIG
 REM ===============================
-set LOG_FILE=sync.log
+set LOG_FILE=log.log
 
 echo ====================================== > %LOG_FILE%
 echo Git Sync Started at %DATE% %TIME% >> %LOG_FILE%
