@@ -1,0 +1,27 @@
+======================================
+Git Sync Started at 27/12/2025 21:01:38,16
+======================================
+[INFO] Initializing 
+[INFO] Current 
+[INFO] Cloud 
+[INFO] Fetching 
+[INFO] Local 
+[INFO] Strategy: 
+[INFO] Creating 
+branch 'backup/origin-main-20251227-210138' set up to track 'origin/main'.
+remote: 
+remote: Create a pull request for 'backup/origin-main-20251227-210138' on GitHub by visiting:        
+remote:      https://github.com/TruongKhanh23/yen-vy-workspace/pull/new/backup/origin-main-20251227-210138        
+remote: 
+To https://github.com/TruongKhanh23/yen-vy-workspace.git
+ * [new branch]      backup/origin-main-20251227-210138 -> backup/origin-main-20251227-210138
+[INFO] Backup 
+[main 50548ff] Auto commit local changes (20251227-210138)
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename sync_files.bat => sync.bat (100%)
+To https://github.com/TruongKhanh23/yen-vy-workspace.git
+   73dc103..50548ff  main -> main
+[INFO] Force 
+======================================
+Sync completed at 27/12/2025 21:01:47,49
+======================================
