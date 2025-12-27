@@ -4,7 +4,7 @@ setlocal EnableDelayedExpansion
 REM ===============================
 REM CONFIG
 REM ===============================
-set LOG_FILE=log.log
+set LOG_FILE=.log.log
 
 REM ===============================
 REM INIT LOG
