@@ -17,7 +17,7 @@ echo ======================================
 
 echo.
 echo Synchronizing...
-echo Progress: 5%%
+echo - 5%%
 call :log INFO Initializing
 
 REM ===============================
@@ -47,7 +47,7 @@ call :log INFO Cloud backup branch: %BACKUP_BRANCH%
 REM ===============================
 REM 4. Fetch origin
 REM ===============================
-echo Progress: 20%% - Fetching origin...
+echo - 20%% - Fetching origin...
 call :log INFO Fetching origin
 git fetch origin >> "%LOG_FILE%" 2>&1
 
@@ -60,7 +60,7 @@ if errorlevel 1 (
 REM ===============================
 REM 5. Check local file changes
 REM ===============================
-echo Progress: 40%% - Checking local changes...
+echo - 40%% - Checking local changes...
 git diff --quiet
 
 if errorlevel 1 (
@@ -75,7 +75,7 @@ REM ===============================
 REM 6A. Local DIRTY -> prioritize LOCAL
 REM ===============================
 if %HAS_LOCAL_FILE_CHANGES% EQU 1 (
-    echo Progress: 70%% - Syncing branches...
+    echo - 70%% - Syncing branches...
     call :log INFO Strategy: PRIORITIZE LOCAL
 
     call :log INFO Creating cloud backup branch
@@ -94,7 +94,7 @@ REM ===============================
 REM 6B. Local CLEAN -> prioritize ORIGIN
 REM ===============================
 if %HAS_LOCAL_FILE_CHANGES% EQU 0 (
-    echo Progress: 70%% - Syncing branches...
+    echo - 70%% - Syncing branches...
     call :log INFO Strategy: PRIORITIZE ORIGIN
 
     git pull origin %CURRENT_BRANCH% >> "%LOG_FILE%" 2>&1
@@ -104,7 +104,7 @@ if %HAS_LOCAL_FILE_CHANGES% EQU 0 (
 REM ===============================
 REM 7. Done
 REM ===============================
-echo Progress: 100%%
+echo - 100%%
 echo.
 echo Git synchronization completed successfully!
 echo.
