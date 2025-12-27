@@ -1,5 +1,5 @@
 ======================================
-Git Sync Started at 27/12/2025 21:05:09.86
+Git Sync Started at 27/12/2025 21:12:30,08
 ======================================
 [INFO] Initializing 
 [INFO] Current 
@@ -8,11 +8,11 @@ Git Sync Started at 27/12/2025 21:05:09.86
 [INFO] Local 
 [INFO] Strategy: 
 [INFO] Creating 
-branch 'backup/origin-main-20251227-210510' set up to track 'origin/main'.
+branch 'backup/origin-main-20251227-211230' set up to track 'origin/main'.
 remote: 
-remote: Create a pull request for 'backup/origin-main-20251227-210510' on GitHub by visiting:        
-remote:      https://github.com/TruongKhanh23/yen-vy-workspace/pull/new/backup/origin-main-20251227-210510        
+remote: Create a pull request for 'backup/origin-main-20251227-211230' on GitHub by visiting:        
+remote:      https://github.com/TruongKhanh23/yen-vy-workspace/pull/new/backup/origin-main-20251227-211230        
 remote: 
 To https://github.com/TruongKhanh23/yen-vy-workspace.git
- * [new branch]      backup/origin-main-20251227-210510 -> backup/origin-main-20251227-210510
+ * [new branch]      backup/origin-main-20251227-211230 -> backup/origin-main-20251227-211230
 [INFO] Backup 
