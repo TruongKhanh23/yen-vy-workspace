@@ -1,0 +1,18 @@
+====================================== 
+Git Sync Started at 27/12/2025 20:43:52,87 
+====================================== 
+Initializing... 
+Current branch: main 
+Backup branch (cloud): backup/origin-main-20251227-204353 
+Fetching origin... 
+Local working tree: DIRTY 
+Prioritize LOCAL changes 
+Creating cloud backup branch... 
+branch 'backup/origin-main-20251227-204353' set up to track 'origin/main'.
+remote: 
+remote: Create a pull request for 'backup/origin-main-20251227-204353' on GitHub by visiting:        
+remote:      https://github.com/TruongKhanh23/yen-vy-workspace/pull/new/backup/origin-main-20251227-204353        
+remote: 
+To https://github.com/TruongKhanh23/yen-vy-workspace.git
+ * [new branch]      backup/origin-main-20251227-204353 -> backup/origin-main-20251227-204353
+Cloud backup branch pushed: origin/backup/origin-main-20251227-204353 
